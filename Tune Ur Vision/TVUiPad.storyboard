@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="11C74" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="0KD-lz-Ntg">
+    <dependencies>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="BhJ-g5-0CY">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m9y-aH-fgl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="jnO-Hw-wfI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Uzg-Eu-Ctc">
+                        <rect key="frame" x="0.0" y="20" width="768" height="955"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Play Rules" image="Play Rules.gif" id="euN-dX-oc2"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-65" y="-1074"/>
+        </scene>
+        <scene sceneID="vqR-ZF-une">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hMR-mU-Rfy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="dPK-fz-OoV" customClass="settings" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ivj-Il-11U">
+                        <rect key="frame" x="0.0" y="20" width="768" height="955"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="LOA-3h-mI3">
+                                <rect key="frame" x="225" y="218" width="409" height="487"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.180392161" green="0.14509804549999999" blue="0.1215686351" alpha="1" colorSpace="deviceRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="QF4-NB-aev">
+                                <rect key="frame" x="232" y="225" width="394" height="472"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                            </imageView>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="uzZ-sz-6FV">
+                                <rect key="frame" x="463" y="467" width="79" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="faceSwitch:" destination="dPK-fz-OoV" eventType="valueChanged" id="ync-RE-Auf"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="social" lineBreakMode="tailTruncation" minimumFontSize="8" id="2am-KC-4jR">
+                                <rect key="frame" x="319" y="572" width="71" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="face" lineBreakMode="tailTruncation" minimumFontSize="8" id="FGm-mI-JFY">
+                                <rect key="frame" x="319" y="461" width="71" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="planet" lineBreakMode="tailTruncation" minimumFontSize="8" id="ZNf-ae-PJD">
+                                <rect key="frame" x="319" y="519" width="71" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Image Type" lineBreakMode="tailTruncation" minimumFontSize="8" id="Hy9-xr-tCA">
+                                <rect key="frame" x="361" y="403" width="122" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="22"/>
+                                <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="JrC-2p-mH2">
+                                <rect key="frame" x="463" y="579" width="79" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="socialSwitch:" destination="dPK-fz-OoV" eventType="valueChanged" id="86e-hS-48H"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="1N0-0T-PmZ">
+                                <rect key="frame" x="463" y="522" width="79" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="planetSwitch:" destination="dPK-fz-OoV" eventType="valueChanged" id="u0t-CJ-ZNx"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sound" lineBreakMode="tailTruncation" minimumFontSize="10" id="XWO-LR-Vhg">
+                                <rect key="frame" x="385" y="248" width="88" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="26"/>
+                                <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="WXB-6M-NeX">
+                                <rect key="frame" x="385" y="308" width="79" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="soundOnOff:" destination="dPK-fz-OoV" eventType="valueChanged" id="a0k-Qw-xJh"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Change Settings" lineBreakMode="tailTruncation" minimumFontSize="10" id="2i2-gZ-QWG">
+                                <rect key="frame" x="302" y="165" width="240" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.1540487612" green="0.080070073670000005" blue="0.80612244899999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.56495620270000002" green="0.76769649620000002" blue="0.0" alpha="0.68999999999999995" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="Nero-Smart-Start-icon.png" id="clq-U7-UBM"/>
+                    <connections>
+                        <outlet property="faceS" destination="uzZ-sz-6FV" id="LFs-N2-R5r"/>
+                        <outlet property="planetS" destination="1N0-0T-PmZ" id="2jy-tQ-pz3"/>
+                        <outlet property="socialS" destination="JrC-2p-mH2" id="KiB-NR-O7o"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-73" y="59"/>
+        </scene>
+        <scene sceneID="5Pv-gv-wAC">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z6p-iB-WNr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="LfT-oD-HdW" customClass="VisionTest" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AGC-7S-8D1">
+                        <rect key="frame" x="0.0" y="20" width="768" height="955"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="J2G-QE-49s">
+                                <rect key="frame" x="119" y="188" width="547" height="548"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="48W-Uq-G4f">
+                                <rect key="frame" x="128" y="198" width="528" height="527"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ONi-iW-q4S">
+                                <rect key="frame" x="418" y="795" width="128" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal" backgroundImage="wrongMark.png">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="wrong:" destination="LfT-oD-HdW" eventType="touchUpInside" id="50d-Js-xFu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7y1-SA-0pb">
+                                <rect key="frame" x="247" y="795" width="128" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal" backgroundImage="tickMark.png">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="correct:" destination="LfT-oD-HdW" eventType="touchUpInside" id="DW8-4E-jYx"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="s9W-b1-GGM">
+                                <rect key="frame" x="136" y="205" width="512" height="512"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.82219511089999997" green="0.94650372589999998" blue="0.74703407290000001" alpha="1" colorSpace="deviceRGB"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Score :" lineBreakMode="tailTruncation" minimumFontSize="10" id="cAn-cn-0eH">
+                                <rect key="frame" x="549" y="15" width="76" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Tune Ur Vision" lineBreakMode="tailTruncation" minimumFontSize="10" id="ghD-t2-gFz">
+                                <rect key="frame" x="197" y="13" width="375" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="39"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="highlightedColor" red="0.56495620270000002" green="0.76769649620000002" blue="0.0" alpha="0.68999999999999995" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.81568634510000004" green="0.81568634510000004" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="jT1-vi-7q1">
+                                <rect key="frame" x="271" y="360" width="275" height="201"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="123456" lineBreakMode="tailTruncation" minimumFontSize="29" id="qQB-Mz-KBP">
+                                <rect key="frame" x="626" y="14" width="142" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="29"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Time" lineBreakMode="tailTruncation" minimumFontSize="10" id="id4-bD-xkU">
+                                <rect key="frame" x="37" y="13" width="92" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="27"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="hPt-Hl-xBn">
+                                <rect key="frame" x="280" y="427" width="256" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.81568634510000004" green="0.81568634510000004" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="42"/>
+                                <state key="normal" title="Start" backgroundImage="textureBg.gif">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.56495620270000002" green="0.76769649620000002" blue="0.0" alpha="0.56000000000000005" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startContinueGame:" destination="LfT-oD-HdW" eventType="touchUpInside" id="x47-2g-ZoH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.56495620270000002" green="0.76769649620000002" blue="0.0" alpha="0.56000000000000005" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Start Buddy :)" image="Start Buddy.gif" id="4wS-Qe-XVN"/>
+                    <connections>
+                        <outlet property="Time" destination="id4-bD-xkU" id="faY-3P-jen"/>
+                        <outlet property="YesNoImageView" destination="jT1-vi-7q1" id="Q8H-bU-6N1"/>
+                        <outlet property="imageView" destination="s9W-b1-GGM" id="XmD-8Y-oro"/>
+                        <outlet property="startContinueButton" destination="hPt-Hl-xBn" id="0fG-yH-4Z1"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-65" y="-2202"/>
+        </scene>
+        <scene sceneID="BVu-Hf-PXY">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h0K-4I-thp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tabBarController definesPresentationContext="YES" id="0KD-lz-Ntg" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="yFq-uX-KdK">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="LfT-oD-HdW" kind="relationship" relationship="viewControllers" id="wiH-5d-vuS"/>
+                        <segue destination="jnO-Hw-wfI" kind="relationship" relationship="viewControllers" id="tQL-xC-Ycl"/>
+                        <segue destination="dPK-fz-OoV" kind="relationship" relationship="viewControllers" id="15V-8P-DDS"/>
+                    </connections>
+                </tabBarController>
+            </objects>
+            <point key="canvasLocation" x="-1045" y="-1629"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Nero-Smart-Start-icon.png" width="32" height="32"/>
+        <image name="Play Rules.gif" width="48" height="32"/>
+        <image name="Start Buddy.gif" width="48" height="32"/>
+        <image name="textureBg.gif" width="450" height="300"/>
+        <image name="tickMark.png" width="512" height="512"/>
+        <image name="wrongMark.png" width="498" height="591"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
